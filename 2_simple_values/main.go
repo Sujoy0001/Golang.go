@@ -6,6 +6,7 @@ func main() {
 	var c string = "Go Programming"
 	var d bool = true	
 	var e float64 = 14.7
+	var f bool = fauls	
 
 	// Print the values
 	println("Integer:", a)	
@@ -13,4 +14,5 @@ func main() {
 	println("String:", c)
 	println("Boolean:", d)
 	println("Don't forget me float:", e)
+	println("Boolean:", f)
 }
