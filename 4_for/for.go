@@ -15,4 +15,8 @@ func main() {
 	// for {
 	// 	println(i)
 	// }
+	// traditional for loop
+	for j := 1; j <= 3; j++ {
+		fmt.Println(i * j)
+	}
 }
