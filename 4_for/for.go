@@ -16,7 +16,22 @@ func main() {
 	// 	println(i)
 	// }
 	// traditional for loop
-	for j := 1; j <= 3; j++ {
-		fmt.Println(i * j)
+
+	for i:= 0; i <= 5; i++ {
+		fmt.Println(i)
+	}
+
+	// clssic for loop
+	count := 10
+	for i := 1; i < count; i++ {
+		// break
+		if i == 5 {
+			continue
+		}
+		fmt.Println(i)
+	}
+
+	for i := range 10 {
+		println(i)
 	}
 }
