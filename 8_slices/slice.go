@@ -8,7 +8,7 @@ import (
 // slice -> dynamic
 // most used data structure in go
 
-func main() {
+func main1() {
 	// uninitialized slice is nil
 	// var nums []int 
 	// fmt.Println(nums)
